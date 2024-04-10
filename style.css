@@ -1,0 +1,39 @@
+
+
+body {
+    background-image: linear-gradient(rgba(65, 65, 65, 0.5),
+                       rgba(65, 65, 65, 0.5)), url("tetrominobg.png");
+    background-repeat: repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font: 20px ARCADECLASSIC;
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: 0.5s; 
+}
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+
